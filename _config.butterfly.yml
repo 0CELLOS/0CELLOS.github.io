@@ -215,3 +215,14 @@ busuanzi:
 # ---------- 字数统计 ----------
 wordcount:
   enable: false
+
+# ---------- 全局音乐播放器 ----------
+aplayer:
+  enable: true
+  # QQ音乐歌单ID，换成你自己的歌单即可
+  meting_id: 8540364786
+  meting_api: https://meting.qjqq.cn
+  meting_type: playlist
+  # 播放器位置：fixed=左下角悬浮
+  aplayer_cdn: https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js
+  meting_cdn: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js

@@ -90,3 +90,8 @@ deploy:
   type: git
   repo: https://github.com/0CELLOS/0CELLOS.github.io.git
   branch: main
+
+# APlayer 全局音乐播放器
+aplayer:
+  meting: true
+  asset_inject: false
